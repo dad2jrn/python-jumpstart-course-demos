@@ -22,7 +22,7 @@ while guess != rnumber:
     if guess > rnumber:
         print('Sorry {0}, but your guess of {1} is higher than my number.'.format(name, guess))
     elif guess < rnumber:
-        print('Sorry {0}, but your guess {1} is lower than my number.'.format(name, guess))
+        print('Sorry {}, but your guess {} is lower than my number.'.format(name, guess))
     else:
-        print('GREAT JOB!!! You guessed right.')
+        print('Great work {}, you won. My number was {}!'.format(name, guess))
 print('Game Over!')
